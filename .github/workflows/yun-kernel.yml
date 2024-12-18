@@ -1,9 +1,6 @@
 name: build
 on:
-  watch:
-    types: [started]
-
-  workflow_call:
+  workflow_dispatch:
 
 jobs:
   build:
